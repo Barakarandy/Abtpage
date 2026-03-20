@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unyenyekevu</title>
+    <!-- ##The below import is for icons that are used in the bootstrap framework. If you are not using any icons in your project, you can remove this line to reduce the number of requests made to the server and improve the performance of your website. -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- ##The below import is the customized bootsrap styles -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- ##You can import your custom styles if applicable from /assets/css/your-custom-styles.css. This allows you to keep your custom styles organized and separate from the default bootstrap styles. -->
+
+</head>
+<body>
+    <div id="navbar"></div>
+    <div class="container"> 
+        <h1>Welcome to Who We Are</h1>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <!-- ##You can import your custom scripts if applicable from /assets/js/your-custom-scripts.js. This allows you to keep your custom scripts organized and separate from the default bootstrap scripts. -->
+    <script>
+        fetch("assets/components/navbar.html").then(response => response.text())
+        .then(data => {
+            document.getElementById("navbar").innerHTML = data;
+        });
+    </script>
+</body>
+</html>

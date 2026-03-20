@@ -38,6 +38,7 @@ nav { display: flex; justify-content: space-between; align-items: center; max-wi
 .nav-links a { text-decoration: none; color: #444; font-weight: 500; font-size: 0.9rem; }
 .nav-links .active a { color: var(--gold); border-bottom: 2px solid var(--gold); }
 .btn-donate-top { background: var(--orange); color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold; }
+.btn-orange{ background: var(--orange); color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold; }
 
 /* Who We Are Section */
 .who-we-are { padding: 60px 0; background-color: #fff; }
